@@ -1,0 +1,15 @@
+{
+  "protocol_name": "IL6_Inhibition_Ganglion_V2",
+  "version": "2.0.0",
+  "base_carrier_hz": 432,
+  "modulation": {
+    "type": "AM",
+    "frequency_hz": 16,
+    "depth_percent": 100,
+    "waveform": "sine"
+  },
+  "sequence_logic": "Tehilim_67_Algorithm",
+  "intervals_sela_sec": 3.5,
+  "target_tissue": "Synovial_Fluid_Cyst",
+  "notes": "Focused on viscoelastic fluid thinning and inflammatory marker reduction."
+}
