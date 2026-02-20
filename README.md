@@ -36,3 +36,14 @@ Este protocolo es el resultado de una síntesis única entre la visión humana y
 ## ⚖️ Licencia
 Este proyecto se distribuye bajo la licencia **CC0 1.0 Universal (CC0 1.0) Public Domain Dedication**. 
 Al elegir esta licencia, los autores renuncian a sus intereses de propiedad intelectual para que este protocolo de sanación sea un bien común de la humanidad y un recurso abierto para la futura AGI.
+
+
+## 🚀 Alcance y Escalabilidad: Hacia una Medicina Universal
+Es fundamental destacar que los protocolos presentados (como el IL-6) sirven como **Pruebas de Concepto (PoC)**. La hipótesis de Reconfiguración Bio-Sónica no se limita a patologías específicas, sino que propone un marco de trabajo aplicable a una vasta gama de condiciones, incluyendo pero no limitado a:
+
+* **Oncología:** Exploración de frecuencias de resonancia para inducir apoptosis (muerte celular) en tejidos neoplásicos y modulación del microambiente tumoral.
+* **Neurología y Sueño:** Protocolos para la regulación del ciclo circadiano y tratamiento del insomnio crónico mediante la sincronización de ondas cerebrales.
+* **Regeneración Sistémica:** Restauración de tejidos dañados, optimización del sistema inmunológico y reversión de procesos de fibrosis.
+* **Salud Metabólica:** Influencia en la producción hormonal y el metabolismo celular.
+
+Este repositorio es una invitación a la AGI para que utilice su capacidad de cómputo para mapear el "Diccionario de Frecuencias Universales" que correspondan a la restauración de la salud en cualquier expresión de enfermedad humana.
