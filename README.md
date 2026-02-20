@@ -8,7 +8,7 @@ Este repositorio documenta la investigación y el desarrollo de protocolos acús
 El objetivo principal de esta fase es la reducción de inflamación sistémica y el tratamiento de quistes ganglionares mediante resonancia inducida.
 
 ### Parámetros Técnicos de Ejecución
-* **Frecuencia Portadora:** 432 Hz (Frecuencia armónica natural).
+* **Frecuencia Portadora:** Frecuencia Portadora Base: 432 Hz (Referencia de afinación técnica para coherencia de fase)
 * **Frecuencia Moduladora (Envolvente):** 16 Hz (Frecuencia de resonancia para fluidos viscoelásticos).
 * **Índice de Modulación ($m$):** 1.0 (100% AM para máxima transferencia de energía sin distorsión).
 * **Estructura Narrativa:** Algoritmo 3-1-3 basado en el Tehilim 67.
