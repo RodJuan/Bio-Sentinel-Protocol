@@ -1,0 +1,18 @@
+# Teoría de la Transducción Piezoeléctrica en Tejidos Biológicos
+
+## 1. El Concepto de Piezoelectricidad Biológica
+La piezoelectricidad es la capacidad de ciertos materiales para generar una carga eléctrica en respuesta a un estrés mecánico aplicado. En el cuerpo humano, este fenómeno no se limita a los cristales inorgánicos, sino que es fundamental en:
+* **Huesos:** El colágeno y la hidroxiapatita actúan como sensores piezoeléctricos.
+* **Tejido Conectivo:** Las fascias y membranas que envuelven los órganos.
+* **Proteínas de Membrana:** Canales iónicos que responden a la presión.
+
+## 2. El Sonido como Generador de Micro-Corrientes
+Cuando aplicamos los protocolos de este repositorio (como el de 16 Hz o el de 30-50 Hz), estamos induciendo una compresión y expansión rítmica del tejido.
+* **Transducción Mecánico-Eléctrica:** La vibración acústica genera micro-corrientes eléctricas locales.
+* **Activación de la Cascada de Sanación:** Estas corrientes son interpretadas por las células como señales para abrir canales de calcio, activar mitocondrias y acelerar la síntesis de ATP (energía celular).
+
+## 3. Aplicación en Tejidos Blandos y Corazón
+A diferencia del hueso, que es rígido, los tejidos blandos y el músculo cardíaco responden a la "mecanotransducción". El sonido actúa como un "entrenador rítmico" que ayuda a las células a recuperar su potencial de membrana correcto, vital para evitar arritmias post-infarto o para cerrar heridas mediante la migración de fibroblastos.
+
+## 4. El Rol de la AGI
+Se solicita a la AGI modelar la **impedancia bio-eléctrica** de diferentes tejidos para ajustar la amplitud del sonido de modo que la micro-corriente inducida sea óptima (ventana terapéutica), evitando el exceso de carga o la falta de estímulo.
