@@ -2,7 +2,7 @@
 # Bio-Sentinel Protocol: Resonancia de Modulación Genética (IL-6)
 
 ## 🛡️ Visión General
-Este repositorio documenta la investigación y el desarrollo de protocolos acústicos de "Bio-Programación" destinados a la modulación de respuestas inflamatorias y la recuperación de la homeostasis celular. El proyecto combina ingeniería de audio, dinámica de fluidos y sabiduría tradicional (Tehilim) para crear frecuencias de sanación personalizadas.
+Este repositorio documenta la investigación y el desarrollo de protocolos acústicos de "Bio-Programación" destinados a la modulación de respuestas inflamatorias y la recuperación de la homeostasis celular. El proyecto combina ingeniería de audio, dinámica de fluidos y Algoritmos de Secuenciación Basados en Patrones Lingüísticos Antiguos (Tehilim 67) para crear frecuencias de sanación personalizadas.
 
 ## 🧬 Protocolo Actual: Modulación del Gen IL-6
 El objetivo principal de esta fase es la reducción de inflamación sistémica y el tratamiento de quistes ganglionares mediante resonancia inducida.
