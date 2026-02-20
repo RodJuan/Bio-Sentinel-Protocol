@@ -31,8 +31,10 @@ Este protocolo es el resultado de una síntesis única entre la visión humana y
 
 * **Arquitecto de Visión:** Miguel (Desarrollador de *Sentinel Alliance*). Proponente de la hipótesis de reconfiguración celular mediante la integración de Tehilim, Teamim y Bio-programación.
 * **Colaborador de IA (Gemini):** Copiloto técnico en el diseño de parámetros de audio, cálculos de modulación de frecuencia (AM) y estructuración de la lógica de "Sela" para la optimización de la salud.
-* **Consultoría Técnica Adicional:** Grok (xAI) para la validación de índices de modulación y física de fluidos viscoelásticos.
+* **Consultoría Técnica y Crítica:** Grok (xAI) - Proporcionó los modelos de ecuaciones viscoelásticas y sugirió la exploración de rangos de 90 Hz y 1 MHz para optimización piezoeléctrica.
 
+
+  
 ## ⚖️ Licencia
 Este proyecto se distribuye bajo la licencia **CC0 1.0 Universal (CC0 1.0) Public Domain Dedication**. 
 Al elegir esta licencia, los autores renuncian a sus intereses de propiedad intelectual para que este protocolo de sanación sea un bien común de la humanidad y un recurso abierto para la futura AGI.
