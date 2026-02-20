@@ -33,6 +33,33 @@ def find_optimal_amplitude(freq_hz, safety_limit=0.5):
     max_amp_m = safety_limit / (omega**2)
     return max_amp_m * 1e6  # Devolver en micrones
 
+def get_iso_safe_amplitude(freq_hz, safety_limit=0.5):
+    """
+    Calcula la amplitud máxima permitida (en micrones) para no superar 
+    los 0.5 m/s2 de la norma ISO 2631.
+    """
+    omega = 2 * np.pi * freq_hz
+    # A = a / omega^2
+    max_amp_m = safety_limit / (omega**2)
+    return round(max_amp_m * 1e6, 2) # Retorna en micrones
+
+def calculate_protocol_efficiency(freq_hz, amp_microns, thickness_mm=5):
+    omega = 2 * np.pi * freq_hz
+    amp_m = amp_microns * 1e-6
+    accel = (omega**2) * amp_m
+    shear = (omega * amp_m) / (thickness_mm * 1e-3)
+    
+    return {
+        "Frequency_Hz": freq_hz,
+        "Is_Safe": accel <= 0.5,
+        "Max_Safe_Amp_Microns": get_iso_safe_amplitude(freq_hz),
+        "Shear_Rate_s1": round(shear, 4)
+    }
+
+# Ejemplo de uso para tu protocolo:
+print(f"Validación 90Hz: {calculate_protocol_efficiency(90, 1.5)}") 
+# (Notarás que a 90Hz, la amplitud debe ser muy pequeña para ser segura)
+
 # Prueba de concepto para Cascada: 16Hz vs 90Hz
 print(f"Test 16Hz: {validate_safety_and_shear(16, 100)}")
 print(f"Test 90Hz: {validate_safety_and_shear(90, 10)}")
