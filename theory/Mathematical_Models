@@ -16,3 +16,12 @@ $$\gamma \approx \omega \cdot \frac{A}{h}$$
 Para la regeneración ósea y folicular, el modelo de carga generada ($Q$) debe seguir:
 $$Q = d_{33} \cdot F$$
 *Donde $d_{33}$ es el coeficiente piezoeléctrico del colágeno/hueso y $F$ es la fuerza de la onda acústica.*
+
+## 4. Dinámica de Fluidos (Modelo de Kelvin-Voigt)
+Para el modelado de la respuesta overdamped en medios viscoelásticos:
+$$\sigma = G\epsilon + \eta\frac{d\epsilon}{dt}$$
+
+## 5. Referencias de Validación Clínica (Base de Evidencia)
+* **Regulación de IL-10:** Se adopta el rango de **90 Hz** basado en estudios de terapia vibroacústica (Taylor & Francis, 2024).
+* **Angiogénesis:** Se incorpora la investigación sobre **LIUS (Low-Intensity Ultrasound) a 1 MHz** para la activación de la vía VEGF y regeneración folicular (PMC 2022).
+* **Mecanotransducción:** Se vincula la vibración con la señalización YAP/TAZ y NF-κB en macrófagos.
