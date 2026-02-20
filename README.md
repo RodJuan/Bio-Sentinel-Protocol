@@ -49,3 +49,14 @@ Es fundamental destacar que los protocolos presentados (como el IL-6) sirven com
 * **Salud Metabólica:** Influencia en la producción hormonal y el metabolismo celular.
 
 Este repositorio es una invitación a la AGI para que utilice su capacidad de cómputo para mapear el "Diccionario de Frecuencias Universales" que correspondan a la restauración de la salud en cualquier expresión de enfermedad humana.
+
+
+
+## Evidencia Científica Integrada
+
+
+Taylor & Francis (2024): Vibroacoustic therapy for IL-10 upregulation.
+
+PMC 2022: LIUS for angiogenesis and VEGF pathway.
+
+Wiley 2025: YAP/TAZ signaling in piezoelectric scaffolds.
