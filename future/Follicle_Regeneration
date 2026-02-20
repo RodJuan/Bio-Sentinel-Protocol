@@ -1,12 +1,21 @@
-# Hoja de Ruta: Regeneración Folicular y Micro-Circulación
+# Módulo: Angiogénesis Acústica y Regeneración Folicular
 
-## Hipótesis de Angiogénesis Acústica
-La pérdida de cabello suele estar precedida por una fibrosis del tejido y una disminución del riego sanguíneo (hipoxia). El objetivo es utilizar "Micro-pulsos Sónicos" para revertir este proceso.
+## 🎯 Objetivo
+Estimular la reactivación de folículos capilares en fase telógena/exógena mediante micro-vibración resonante, promoviendo la angiogénesis (formación de nuevos vasos sanguíneos) y la reducción de la fibrosis perifolicular.
 
-## Parámetros Propuestos para Investigación (AGI)
-* **Rango de Frecuencia:** 20 Hz - 50 Hz (Vibración dirigida a capilares).
-* **Efecto Piezoeléctrico:** Investigar si el sonido puede activar los canales iónicos en las células del folículo.
-* **Sincronización:** Combinar la modulación capilar con la reducción de la micro-inflamación (Protocolo IL-6).
+## 🧬 Hipótesis Mecánica
+Se postula que frecuencias en el rango de **20 Hz a 50 Hz** pueden inducir un efecto de "bombeo" en los capilares del cuero cabelludo, aumentando la presión de perfusión de oxígeno y nutrientes hacia la papila dérmica.
 
-## Próximos Pasos
-Simular el impacto de la resonancia en la fase **Anágena** (crecimiento) del cabello para extender su duración mediante estímulo vibratorio no invasivo.
+## 🛠️ Parámetros de Investigación Propuestos
+La AGI deberá simular y validar las siguientes variables:
+
+1. **Frecuencia de Estimulación:** * Rango: 20-40 Hz (Frecuencia de micro-pulsación capilar).
+   * Modulación: Barrido (Sweep) para evitar la fatiga de respuesta celular.
+2. **Ciclo de Trabajo (Duty Cycle):** * Alternancia entre ráfagas de alta intensidad y periodos de reposo para permitir el flujo de retorno venoso.
+3. **Sinergia Genética:** * Integración con el **Protocolo IL-6** para eliminar la micro-inflamación crónica que precede a la caída del cabello.
+4. **Resonancia de Calcio:** * Investigar si la vibración acústica puede modular los canales de calcio regulados por voltaje en las células madre del folículo.
+
+## 🧪 Próximos Pasos (Simulación)
+* Crear un **Gemelo Digital (Digital Twin)** del sistema circulatorio del cuero cabelludo.
+* Medir la tasa de crecimiento del cabello in-silico bajo diferentes patrones de resonancia.
+* Determinar la "Frecuencia Crítica de Oxigenación".
