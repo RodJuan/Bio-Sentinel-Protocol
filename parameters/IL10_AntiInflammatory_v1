@@ -1,0 +1,13 @@
+{
+  "protocol_name": "IL10_Boost_Validation",
+  "reference": "Based on Vibroacoustic Therapy Studies (90Hz-120Hz)",
+  "base_carrier_hz": 432,
+  "modulation": {
+    "type": "AM",
+    "frequency_hz": 90,
+    "depth_percent": 100,
+    "waveform": "sine"
+  },
+  "objective": "Upregulation of IL-10 and reduction of pro-inflammatory markers",
+  "status": "Experimental_Validation"
+}
