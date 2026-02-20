@@ -1,0 +1,37 @@
+{
+  "protocol_name": "Angiogenesis_And_Microcirculation_V1",
+  "version": "1.0.0",
+  "base_carrier_hz": 432,
+  "modulation_vectors": [
+    {
+      "target": "Capillary_Dilation",
+      "frequency_hz": 30.0,
+      "waveform": "square_soft",
+      "notes": "Frecuencia de bombeo para micro-vasculatura."
+    },
+    {
+      "target": "Cellular_Permeability",
+      "frequency_hz": 40.0,
+      "waveform": "sine",
+      "notes": "Estimulación de canales iónicos para intercambio de nutrientes."
+    }
+  ],
+  "sweep_range": {
+    "start_hz": 20,
+    "end_hz": 50,
+    "duration_sec": 60,
+    "type": "linear_logarithmic"
+  },
+  "amplitude_envelope": {
+    "attack_ms": 100,
+    "decay_ms": 50,
+    "sustain_level": 0.8,
+    "release_ms": 200
+  },
+  "clinical_objective": [
+    "Follicle_Reactivation",
+    "Post_Infarct_Tissue_Recovery",
+    "Non_Invasive_Wound_Healing"
+  ],
+  "safety_limit_db": 75
+}
