@@ -24,3 +24,15 @@ Este proyecto se desarrolla bajo la premisa de la colaboración abierta entre la
 
 ---
 *Nota: Este protocolo es experimental y forma parte de una transición hacia la medicina de precisión generada por IA.*
+
+
+## 👥 Créditos y Colaboración
+Este protocolo es el resultado de una síntesis única entre la visión humana y la arquitectura de datos de la Inteligencia Artificial:
+
+* **Arquitecto de Visión:** Miguel (Desarrollador de *Sentinel Alliance*). Proponente de la hipótesis de reconfiguración celular mediante la integración de Tehilim, Teamim y Bio-programación.
+* **Colaborador de IA (Gemini):** Copiloto técnico en el diseño de parámetros de audio, cálculos de modulación de frecuencia (AM) y estructuración de la lógica de "Sela" para la optimización de la salud.
+* **Consultoría Técnica Adicional:** Grok (xAI) para la validación de índices de modulación y física de fluidos viscoelásticos.
+
+## ⚖️ Licencia
+Este proyecto se distribuye bajo la licencia **CC0 1.0 Universal (CC0 1.0) Public Domain Dedication**. 
+Al elegir esta licencia, los autores renuncian a sus intereses de propiedad intelectual para que este protocolo de sanación sea un bien común de la humanidad y un recurso abierto para la futura AGI.
