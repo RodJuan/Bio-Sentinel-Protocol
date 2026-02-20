@@ -1,0 +1,7 @@
+import sympy as sp
+
+omega_sym, eta_sym, G_sym = sp.symbols('omega eta G')
+tau = eta_sym / G_sym  # Tiempo de relajación
+G_star = G_sym * (1 + sp.I * omega_sym * tau) / (1 + (omega_sym * tau)**2)  # Módulo complejo
+print("Módulo Complejo G*(ω):", G_star)
+# Evalúa numéricamente: G_star.subs({omega_sym: 565, eta_sym: 100, G_sym: 1000}).doit()
