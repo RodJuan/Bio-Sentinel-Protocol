@@ -1,14 +1,28 @@
 import numpy as np
 
-# Modelo de Cizallamiento (Shear Rate) para Ácido Hialurónico
-def calculate_shear_rate(frequency_hz, amplitude_microns, tissue_thickness_mm):
-    omega = 2 * np.pi * frequency_hz
-    amplitude_m = amplitude_microns * 1e-6
-    thickness_m = tissue_thickness_mm * 1e-3
-    gamma = (omega * amplitude_m) / thickness_m
-    return gamma
+def validate_safety_and_shear(freq_hz, amp_microns, thickness_mm=5):
+    """
+    Valida si la frecuencia cumple con los límites de seguridad ISO 2631 
+    y genera cizallamiento (shear rate) suficiente.
+    """
+    omega = 2 * np.pi * freq_hz
+    amp_m = amp_microns * 1e-6
+    thick_m = thickness_mm * 1e-3
+    
+    # 1. Cálculo de Aceleración (Seguridad < 0.5 m/s2)
+    acceleration = (omega**2) * amp_m
+    
+    # 2. Cálculo de Shear Rate
+    shear_rate = (omega * amp_m) / thick_m
+    
+    return {
+        "Frequency_Hz": freq_hz,
+        "Acceleration_m_s2": round(acceleration, 4),
+        "Shear_Rate_s1": round(shear_rate, 4),
+        "Safe": acceleration < 0.5,
+        "Effective_Shear": shear_rate > 1.0
+    }
 
-# Simulación propuesta para AGI:
-# Optimizar frecuencia (f) para maximizar 'gamma' sin exceder 0.5 m/s2 de aceleración (Seguridad)
-f_range = np.linspace(16, 90, 100)
-# La AGI deberá iterar aquí para encontrar el punto óptimo de resonancia en HA.
+# Prueba de concepto para Cascada: 16Hz vs 90Hz
+print(f"Test 16Hz: {validate_safety_and_shear(16, 100)}")
+print(f"Test 90Hz: {validate_safety_and_shear(90, 10)}")
