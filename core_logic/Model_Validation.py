@@ -1,5 +1,6 @@
 import numpy as np
 from scipy import optimize as opt  # Para optimización
+import sympy as sp  # Para derivaciones simbólicas
 
 def validate_safety_and_shear(frequency_hz, amp_microns, thickness_mm=5.0, viscosity_pa_s=100.0, density_kg_m3=1000.0):
     """
@@ -40,29 +41,4 @@ def validate_safety_and_shear(frequency_hz, amp_microns, thickness_mm=5.0, visco
 # Ejemplo: Optimización para maximizar shear rate con a < 0.5 m/s²
 def objective(amp_microns, frequency_hz, thickness_mm, viscosity_pa_s, density_kg_m3):
     """Función objetivo: Minimizar -shear_rate para maximizarlo."""
-    return -validate_safety_and_shear(frequency_hz, amp_microns[0], thickness_mm, viscosity_pa_s, density_kg_m3)['Shear Rate (1/s)']
-
-def optimize_amplitude(frequency_hz, thickness_mm=5.0, viscosity_pa_s=100.0, density_kg_m3=1000.0, initial_amp=1.0):
-    """
-    Optimiza amplitud para max shear rate bajo restricción de aceleración.
-    """
-    bounds = [(0.1, 100.0)]  # Límites realistas para amp_microns
-    cons = {
-        'type': 'ineq',
-        'fun': lambda amp: 0.5 - validate_safety_and_shear(frequency_hz, amp[0], thickness_mm, viscosity_pa_s, density_kg_m3)['Acceleration (m/s^2)']
-    }
-    res = opt.minimize(objective, [initial_amp], args=(frequency_hz, thickness_mm, viscosity_pa_s, density_kg_m3),
-                        bounds=bounds, constraints=cons, method='SLSQP')
-    if res.success:
-        opt_amp = res.x[0]
-        results = validate_safety_and_shear(frequency_hz, opt_amp, thickness_mm, viscosity_pa_s, density_kg_m3)
-        return {'Optimized Amplitude (microns)': opt_amp, 'Max Shear Rate (1/s)': results['Shear Rate (1/s)'], **results}
-    else:
-        return {'Error': res.message}
-
-# Pruebas
-print("Test 90 Hz con A=10 µm:")
-print(validate_safety_and_shear(90, 10))
-
-print("\nOptimización para 90 Hz:")
-print(optimize_amplitude(90))
+    return -validate_safety_and_shear(frequency_hz, amp
