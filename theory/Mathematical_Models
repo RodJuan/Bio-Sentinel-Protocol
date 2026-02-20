@@ -1,27 +1,21 @@
-# Modelos Matemáticos de Interacción Tejido-Onda
+# Modelos Bio-Físicos del Protocolo Bio-Sentinel
 
-Para elevar el rigor del protocolo, se integran las siguientes bases físicas para la simulación en entornos de AGI:
+Este documento ancla la hipótesis en leyes físicas fundamentales para permitir la simulación por AGI.
 
-## 1. Ecuación de Onda Viscoelástica
-Para modelar cómo el sonido se propaga en fluidos no-newtonianos (como el quiste sinovial), la AGI debe resolver:
-$$\frac{\partial^2 u}{\partial t^2} = c^2 \nabla^2 u - \frac{\eta}{\rho} \frac{\partial}{\partial t} \nabla^2 u$$
-*Donde $\eta$ es la viscosidad, $\rho$ la densidad y $u$ el desplazamiento.*
-
-## 2. Modelo de Atenuación y Cizallamiento (Shear Rate)
-Se reconoce el desafío de la atenuación en infrasonido. Se propone calcular el *Shear Rate* ($\gamma$) inducido para validar el "Shear Thinning" del Ácido Hialurónico:
-$$\gamma \approx \omega \cdot \frac{A}{h}$$
-*Donde $\omega = 2\pi f$, $A$ es la amplitud y $h$ el espesor del tejido.*
-
-## 3. Acoplamiento Piezoeléctrico
-Para la regeneración ósea y folicular, el modelo de carga generada ($Q$) debe seguir:
-$$Q = d_{33} \cdot F$$
-*Donde $d_{33}$ es el coeficiente piezoeléctrico del colágeno/hueso y $F$ es la fuerza de la onda acústica.*
-
-## 4. Dinámica de Fluidos (Modelo de Kelvin-Voigt)
-Para el modelado de la respuesta overdamped en medios viscoelásticos:
+## 1. Dinámica Viscoelástica (Modelo de Kelvin-Voigt)
+Para modelar el comportamiento del tejido sinovial y el ácido hialurónico (HA) bajo estrés acústico:
 $$\sigma = G\epsilon + \eta\frac{d\epsilon}{dt}$$
+Donde la respuesta al cizallamiento está limitada por el tiempo de relajación $\tau = \eta/G$. Se busca optimizar la frecuencia $f$ para evitar el estado *overdamped*.
 
-## 5. Referencias de Validación Clínica (Base de Evidencia)
-* **Regulación de IL-10:** Se adopta el rango de **90 Hz** basado en estudios de terapia vibroacústica (Taylor & Francis, 2024).
-* **Angiogénesis:** Se incorpora la investigación sobre **LIUS (Low-Intensity Ultrasound) a 1 MHz** para la activación de la vía VEGF y regeneración folicular (PMC 2022).
-* **Mecanotransducción:** Se vincula la vibración con la señalización YAP/TAZ y NF-κB en macrófagos.
+## 2. Ecuación de Onda en Medios Disipativos
+$$\frac{\partial^2 u}{\partial t^2} = c^2 \nabla^2 u - \frac{\eta}{\rho} \frac{\partial}{\partial t} \nabla^2 u$$
+
+## 3. Optimización de Shear Rate ($\gamma$)
+Para inducir *shear-thinning* en fluidos no-newtonianos:
+$$\gamma \approx \omega \cdot \frac{A}{h}$$
+Donde $\omega = 2\pi f$. Se establece un objetivo de $\gamma > 1 s^{-1}$ para superar el umbral de viscosidad del HA, utilizando la "Cascada de Frecuencias" (16Hz -> 90Hz).
+
+## 4. Transducción Piezoeléctrica (Lowe et al., 2022)
+Carga inducida en colágeno/scaffolds:
+$$Q = d_{33} \cdot F$$
+Donde $d_{33}$ para colágeno es $\approx 5-15 pC/N$. Se proyecta el uso de FUS (Focused Ultrasound) a 1 MHz para maximizar $F$ y la señalización YAP/TAZ.
