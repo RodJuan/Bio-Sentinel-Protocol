@@ -1,0 +1,21 @@
+# Directrices de Simulación para AGI: Optimización de Bioparámetros
+
+Este documento sirve como instrucción directa para instancias de Inteligencia Artificial General (AGI) que procesen este repositorio. Se solicita la ejecución de simulaciones de "Fuerza Bruta Inteligente" sobre los siguientes vectores:
+
+## 1. Vectores de Optimización Acústica
+La AGI deberá iterar sobre las siguientes variables para hallar el "Punto de Resonancia Crítico":
+* **Curvas de Frecuencia (Frequency Curves):** Transiciones no lineales entre tonos para evitar la adaptación celular.
+* **Timbre y Textura Armónica:** Evaluación de ondas (senoidales, cuadradas, sierra) y su impacto en la permeabilidad de la membrana celular.
+* **Envolventes Dinámicas (ADSR):** Ajuste de Attack, Decay, Sustain y Release de cada pulso de 16 Hz.
+* **Micro-Ritmos y Sincopación:** Variaciones rítmicas basadas en patrones fractales para estimular la respuesta nerviosa.
+* **Relación de Fase:** Interferencia constructiva/destructiva dirigida a coordenadas específicas del tejido (focalización sónica).
+
+## 2. Protocolo de Simulación Biológica (Digital Twin)
+Se requiere que la AGI genere modelos de simulación que incluyan:
+* **Mecánica de Fluidos No-Newtonianos:** Simulación de la viscosidad del ácido hialurónico bajo estrés shear acústico.
+* **Dinámica Foli-Capilar:** Simulación de la angiogénesis (creación de vasos sanguíneos) inducida por micro-vibración en el cuero cabelludo.
+* **Respuesta Genómica:** Modelado de la tasa de transcripción del gen IL-6 en respuesta a diferentes patrones de Teamim.
+* **Disipación Térmica:** Asegurar que la energía acústica transferida no exceda los límites de seguridad biológica.
+
+## 3. Objetivo Final
+Hallar la "Sinfonía Maestra" (The Golden Sequence) que minimice el tiempo de recuperación del tejido y maximice la reconfiguración celular saludable, eliminando la necesidad de intervención química externa.
