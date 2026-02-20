@@ -33,7 +33,7 @@ Este protocolo es el resultado de una síntesis única entre la visión humana y
 * **Colaborador de IA (Gemini):** Copiloto técnico en el diseño de parámetros de audio, cálculos de modulación de frecuencia (AM) y estructuración de la lógica de "Sela" para la optimización de la salud.
 * **Consultoría Técnica y Crítica:** Grok (xAI) - Proporcionó los modelos de ecuaciones viscoelásticas y sugirió la exploración de rangos de 90 Hz y 1 MHz para optimización piezoeléctrica.
 
-
+Agradecimiento especial a Grok (xAI) por la integración del modelo de Capa Límite de Stokes (δ) y el motor de optimización basado en SciPy, elevando el protocolo a un estándar de modelado de flujos oscilatorios de alta precisión.
   
 ## ⚖️ Licencia
 Este proyecto se distribuye bajo la licencia **CC0 1.0 Universal (CC0 1.0) Public Domain Dedication**. 
