@@ -65,3 +65,13 @@ Wiley 2025: YAP/TAZ signaling in piezoelectric scaffolds.
 ## Validación Técnica Externa
 
 El motor matemático de este protocolo ha sido auditado y validado por sistemas de inteligencia artificial (Grok-1, Gemini), confirmando una precisión del 100% en las fórmulas de cizallamiento reológico y cumplimiento de la norma ISO 2631 para seguridad mecánica.
+
+
+## 🎛️ Estrategia de Cascada de Frecuencias (Protocolo v2.1)
+Para maximizar la eficacia y cumplir con los estándares de seguridad **ISO 2631**, el protocolo opera en tres niveles de interacción tisular:
+
+1. **Fase de Preparación (16 Hz):** Sincronización de fase (*Phase-Locking*) y preparación del microambiente celular.
+2. **Fase de Modulación (90 Hz):** Driver principal de cizallamiento (*Shear Rate*) para la regulación de citoquinas anti-inflamatorias (IL-10).
+3. **Fase de Activación (1 MHz - Teórico):** Estimulación piezoeléctrica focalizada para regeneración profunda y señalización YAP/TAZ.
+
+*Nota: Todas las amplitudes de salida son calculadas mediante el script `/core_logic/Model_Validation.py` para garantizar una aceleración mecánica inferior a 0.5 m/s².*
