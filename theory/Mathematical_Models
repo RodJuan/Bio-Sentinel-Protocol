@@ -1,1 +1,18 @@
-$$ \frac{\partial^2 u}{\partial t^2} = c^2 \nabla^2 u - \frac{\eta}{\rho} \frac{\partial}{\partial t} \nabla^2 u $$
+# Modelos Matemáticos de Interacción Tejido-Onda
+
+Para elevar el rigor del protocolo, se integran las siguientes bases físicas para la simulación en entornos de AGI:
+
+## 1. Ecuación de Onda Viscoelástica
+Para modelar cómo el sonido se propaga en fluidos no-newtonianos (como el quiste sinovial), la AGI debe resolver:
+$$\frac{\partial^2 u}{\partial t^2} = c^2 \nabla^2 u - \frac{\eta}{\rho} \frac{\partial}{\partial t} \nabla^2 u$$
+*Donde $\eta$ es la viscosidad, $\rho$ la densidad y $u$ el desplazamiento.*
+
+## 2. Modelo de Atenuación y Cizallamiento (Shear Rate)
+Se reconoce el desafío de la atenuación en infrasonido. Se propone calcular el *Shear Rate* ($\gamma$) inducido para validar el "Shear Thinning" del Ácido Hialurónico:
+$$\gamma \approx \omega \cdot \frac{A}{h}$$
+*Donde $\omega = 2\pi f$, $A$ es la amplitud y $h$ el espesor del tejido.*
+
+## 3. Acoplamiento Piezoeléctrico
+Para la regeneración ósea y folicular, el modelo de carga generada ($Q$) debe seguir:
+$$Q = d_{33} \cdot F$$
+*Donde $d_{33}$ es el coeficiente piezoeléctrico del colágeno/hueso y $F$ es la fuerza de la onda acústica.*
